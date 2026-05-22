@@ -33,9 +33,9 @@ classifiers = [
     "Topic :: Office/Business :: Financial",
 ]
 dependencies = [
-    "numpy>=1.26.0,<2.0.0",
-    "scipy>=1.11.0,<1.13.0",
-    "matplotlib>=3.8.0,<4.0.0",
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
 ]
 
 [project.optional-dependencies]
@@ -44,9 +44,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/[USER]/zkpc-private-credit"
-Repository = "https://github.com/[USER]/zkpc-private-credit"
-Issues = "https://github.com/[USER]/zkpc-private-credit/issues"
+Homepage = "https://github.com/mnlsas9-art/zkpc-private-credit"
+Repository = "https://github.com/mnlsas9-art/zkpc-private-credit"
+Issues = "https://github.com/mnlsas9-art/zkpc-private-credit/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]

@@ -31,7 +31,7 @@ reporting boundaries.
 ## Quick reproduction
 
 ```bash
-git clone https://github.com/[USER]/zkpc-private-credit.git
+git clone https://github.com/mnlsas9-art/zkpc-private-credit.git
 cd zkpc-private-credit
 pip install -r requirements.txt
 python reproduce.py
@@ -111,14 +111,14 @@ zkpc-private-credit/
 ## Computational requirements
 
 - Python 3.10 or later
-- NumPy 1.26.x
-- SciPy 1.11.x
-- Matplotlib 3.8.x
+- NumPy ≥ 1.24
+- SciPy ≥ 1.10
+- Matplotlib ≥ 3.7
 - pytest (for tests only)
 - Approximately 16 GB RAM (10,000-path simulation across four scenarios)
 - Approximately 3 minutes total runtime on commodity hardware
 
-Pinned versions in `requirements.txt` reflect the reference environment.
+Bit-exact reproducibility (matching `tests/expected_outputs.json` to 10 decimal places) was verified on Python 3.10 with NumPy 1.26.x and SciPy 1.11.x. Newer versions of NumPy and SciPy produce qualitatively identical findings — the headline 33% / 29% cliff and standard-deviation reductions are robust to NumPy minor-version RNG drift, as confirmed by the sensitivity analysis in Section 7.3 of the paper.
 
 ## Citation
 
