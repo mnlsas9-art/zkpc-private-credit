@@ -1,0 +1,8 @@
+# Reproducibility package — pinned dependencies.
+# Reference environment for bit-exact reproducibility:
+#   Python 3.10, NumPy 1.26.x, SciPy 1.11.x, Matplotlib 3.8.x
+
+numpy>=1.26.0,<2.0.0
+scipy>=1.11.0,<1.13.0
+matplotlib>=3.8.0,<4.0.0
+pytest>=7.4.0

@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zkpc-private-credit"
+version = "1.0.0"
+description = "Reproducibility package for Continuous Risk Pricing of Tokenized Private Credit Using Zero-Knowledge Attested Factor Reporting"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "Naga Lalitha Kumar Mudiganti" }
+]
+keywords = [
+    "tokenized private credit",
+    "zero-knowledge proofs",
+    "reduced-form credit risk",
+    "conditional value at risk",
+    "real-world assets",
+    "continuous risk pricing",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Office/Business :: Financial",
+]
+dependencies = [
+    "numpy>=1.26.0,<2.0.0",
+    "scipy>=1.11.0,<1.13.0",
+    "matplotlib>=3.8.0,<4.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/[USER]/zkpc-private-credit"
+Repository = "https://github.com/[USER]/zkpc-private-credit"
+Issues = "https://github.com/[USER]/zkpc-private-credit/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

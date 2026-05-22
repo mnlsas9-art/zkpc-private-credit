@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this code or its outputs, please cite the paper."
+title: "Continuous Risk Pricing of Tokenized Private Credit Using Zero-Knowledge Attested Factor Reporting"
+abstract: >-
+  Reproducibility package for a calibrated Monte Carlo simulation of
+  zero-knowledge attested predicate reporting in tokenized private credit
+  markets. The simulation evaluates a zero-knowledge attested reporting regime
+  (monthly cadence) against a conventional opaque reporting regime (quarterly
+  cadence) across four credit-state scenarios, with parameters calibrated to
+  real benchmark data from the Cliffwater Direct Lending Index and the VanEck
+  BDC Income ETF. Headline finding: 33.1% reduction in maximum monthly price
+  drop under correlated stress, with peak conditional value at risk preserved.
+type: software
+authors:
+  - given-names: "Naga Lalitha Kumar"
+    family-names: "Mudiganti"
+    orcid: "https://orcid.org/0009-0000-5907-3704"
+    affiliation: "Independent Researcher"
+repository-code: "https://github.com/[USER]/zkpc-private-credit"
+license: Apache-2.0
+version: "1.0.0"
+date-released: "2026-05-22"
+keywords:
+  - "tokenized private credit"
+  - "zero-knowledge proofs"
+  - "reduced-form credit risk"
+  - "conditional value at risk"
+  - "real-world assets"
+  - "continuous risk pricing"
+  - "Monte Carlo simulation"
+preferred-citation:
+  type: article
+  title: "Continuous Risk Pricing of Tokenized Private Credit Using Zero-Knowledge Attested Factor Reporting: A Mortgage-Architecture Analog"
+  authors:
+    - given-names: "Naga Lalitha Kumar"
+      family-names: "Mudiganti"
+      orcid: "https://orcid.org/0009-0000-5907-3704"
+  journal: "Financial Innovation"
+  year: 2026
+  notes: "Submitted"
